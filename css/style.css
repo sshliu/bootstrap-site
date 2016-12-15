@@ -1,0 +1,129 @@
+body {
+    background: rgb(20, 20, 20);
+    font-family: 'Josefin Sans', Trebuchet MS, sans-serif;
+}
+h1 {
+    font-family: 'Cardo', Palatino Linotype, serif;
+}
+.glyphicon {
+    color: rgb(24, 153, 33);
+}
+.bg {
+    background: url("bgimg.jpg") no-repeat center center;
+    filter: opacity(0.8);
+    position: fixed;
+    width: 100%;
+    height: 1400px;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.jumbotron {
+    margin-bottom: 0px;
+    height: 1400px;
+    color: white;
+    background: transparent;
+    text-align: center;
+}
+.jfirst {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.jumbotron p {
+    font-size: 2rem;
+}
+.jumbotron .jfirst h1 {
+    font-size: 6rem;
+}
+.jumbotron .jfirst p {
+    font-size: 2rem;
+}
+.jumbotron p:nth-child(2) {
+    margin-bottom: 100px;
+}
+footer .iconic {
+    color: rgba(255, 255, 255, 0.4);
+}
+footer .iconic:hover {
+    color: rgb(80, 143, 41);
+}
+footer .iconic:nth-child(-n+3) {
+    padding-right: 20px;
+}
+footer {
+    margin-bottom: 10px;
+}
+footer p {
+    padding-top: 10px;
+    float: right;
+    color: rgba(255, 255, 255, 0.4)
+}
+.helpwell {
+    background-color: rgba(30, 120, 143, 0.2);
+    border-color: rgba(30, 120, 143, 0.8);
+    color: rgba(255, 255, 255, 0.8);
+}
+.helpwell:hover{
+    background-color: rgba(3, 153, 129, 0.4);
+    border-color: rgba(3, 153, 129, 1);
+    color: rgba(255, 255, 255, 1);
+}
+.helpwell .iconic {
+    padding-top: 30px;
+}
+.helpwell:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.contactwell,
+.contactwell button {
+    background-color: rgba(50, 130, 86, 0.2);
+    border-color: rgba(50, 130, 86, 0.8);
+    color: rgba(255, 255, 255, 0.8);
+}
+.contactwell button:hover {
+    background-color: rgba(50, 130, 86, 0.4);
+    border-color: rgba(50, 130, 86, 1);
+    color: rgba(255, 255, 255, 1);
+}
+iframe {
+    height: 300px;
+    width: 100%;
+}
+@media (min-width: 480px) and (max-width: 768px) {
+    .bg {
+        height: 1200px;
+    }
+    .jumbotron {
+        height: 1200px;
+    }
+    .jumbotron p {
+        font-size: 2rem;
+    }
+    .jumbotron .jfirst h1 {
+        font-size: 8rem;
+    }
+    .jumbotron .jfirst p {
+        font-size: 3rem;
+    }
+}
+@media (min-width: 768px) {
+    .bg {
+        height: 1000px;
+    }
+    .jumbotron {
+        height: 1000px;
+    }
+    .jumbotron p {
+        font-size: 2rem;
+    }
+    .jumbotron .jfirst h1 {
+        font-size: 8rem;
+    }
+    .jumbotron .jfirst p {
+        font-size: 3rem;
+    }
+}
